@@ -1,0 +1,40 @@
+h3{
+    text-align: center;
+    background-color: green;
+    color: yellow;
+}
+body{
+    background-color: bisque;
+
+}
+h2 {
+    text-align: right;
+    background-color: brown;
+    color: white;
+}
+/*Esto Es una etiqueta que ustiliza id*/
+#aviso{
+    background-color: red;
+    color:white;
+}
+
+/*Esto Es una etiqueta que ustiliza class*/
+.aviso{
+    background-color: bisque;
+    color:green;
+}
+
+a{
+    text-decoration: none;
+    background-color: red;
+    color: white;
+}
+/*Esto Es una pseuda clase*/
+
+a:hover{
+    background-color: black;
+    color: white;
+    font-size: 22px;
+    transition-delay: 0.2s;
+    
+}
